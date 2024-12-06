@@ -3,26 +3,26 @@
 main()
 {
 
-    // int i = 1;
+    int i = 1;
 
-    // do
-    // {
+    do
+    {
 
-    //     printf("%d\n", i);
-    //     i++;
+        printf("%d\n", i);
+        i++;
 
-    // } while (i <= 10);
+    } while (i <= 10);
 
-    // // 2
+    // 2
 
-    // int i2 = 10;
+    int i2 = 10;
 
-    // do
-    // {
-    //     printf("%d\n", i2);
+    do
+    {
+        printf("%d\n", i2);
 
-    //     i2--;
-    // } while (i2 >= 1);
+        i2--;
+    } while (i2 >= 1);
 
     // 3
 
@@ -39,4 +39,37 @@ main()
         }
         w--;
     } while (w >= 1);
+
+    // 4
+    int z;
+
+    printf("enter the no :");
+    scanf("%d", &z);
+
+    do
+    {
+        printf("\n%d", z);
+        z--;
+    } while (z >= 1);
+
+    // leap year
+
+    int y1, y2;
+
+    printf("enter starting year:");
+    scanf("%d", &y1);
+
+    printf("enter ending year");
+    scanf("%d", &y2);
+
+    do
+    {
+        if (y1 % 4 == 0)
+        {
+
+            printf("\n%d", y1);
+        }
+        y1++;
+
+    } while (y1 <= y2);
 }
