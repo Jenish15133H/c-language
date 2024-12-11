@@ -3,16 +3,16 @@ main()
 {
     // skip three no
 
-    // char i;
-    // char no;
+    char i;
+    char no;
 
-    // for (i = 'a'; i <= 'z'; i++)
-    // {
+    for (i = 'a'; i <= 'z'; i++)
+    {
 
-    //     printf("%c\n", i);
+        printf("%c\n", i);
 
-    //     i = i + 3;
-    // }
+        i = i + 3;
+     }
 
     // find the digit
 
